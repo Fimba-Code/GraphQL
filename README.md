@@ -15,19 +15,6 @@ masterClass
   client
 ```
 
-Cada pasta agrupa dados por **feature** e não por **tipo**.
-
-Logo, a pasta `perfil` acima agrupa tudo o que é relacionado a perfil, como entidade, service, resolvers, telas e etc.
-
-
-# Início do desenvolvimento
-
-Executar o comando no banco de dados para criar o schema:
-
-```sql
-CREATE SCHEMA `guia` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-```
-
 ## Backend (server)
 
 Esses comandos devem ser executados na pasta `server`.
