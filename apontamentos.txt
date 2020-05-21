@@ -1,0 +1,129 @@
+GraphQl: 
+- é uma linguagem de consulta de apis
+- foi criada pelo facebook
+- é um alternativa ao Rest
+- GraphQl pretende resolver alguns dos problemas do rest, assim como:
+  - muitos andpointes
+  - excesso de dados ao fazer uma request
+
+Schema
+- Pode ser visto como a representação das consultas ou mutaions que pretendo fazer no meu back.
+
+Resolvers
+- Vamos pensar nos resolvers como o nosso controller
+
+
+
+
+Type: 
+type Caractere { 
+  nome :  String ! 
+  aparece em :  [ Episódio ! ] ! 
+}
+
+
+
+
+
+
+======================================= Client ================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===========================================
+O graphQl permite aos clent definir a forma da resposta para cada solicitação.
+Remove a complexidade do gerenciamento de endpoints nesses clients, pois expo~e um único http endpoint para buscar os dados necessários.
+
+Vantagens:
+
+
+==================================================================================================================================
+==================================================================================================================================
+**** ROTEIRO ****
+==================================================================================================================================
+==================================================================================================================================
+
+- Falar um pouco sobre GraphQl
+- Falar de algumas coisas legais do graphQl: único endpoint e escolha dos dados requisitados
+- Schema e Resolvers
+- Tipos Escalares
+- Tipos do GraphQl: type e input
+- Construir o schema
+- Resolvers
+- Construir o resolver
+- Testar no PlayGround
+
+- Ir para o Front
+- Falar que para request só usamos o post
+- Testar no Front
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
